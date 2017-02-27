@@ -20,6 +20,15 @@ docker run -i -p 8989:8989 -p 8888:8888 -t 4quant/neuroglancer
 docker run -i -p 8989:8989 -p 8888:8888 -v $PWD/notebooks:/home/neuroglancer_user/local_notebooks -t 4quant/neuroglancer
 ```
 
+## Running with local notebooks and data
+
+In this case the data is located in the current directory in a folder called _data_ but this can be changed to anything
+
+```
+docker run -i -p 8989:8989 -p 8888:8888 -v $PWD/notebooks:/home/neuroglancer_user/local_notebooks -v $PWD/data/:/home/neuroglancer_user/local_data -t 4quant/neuroglancer
+```
+
+### Note
 
 If you have not built the image locally it will be downloaded from [docker hub](https://hub.docker.com/r/4quant/neuroglancer/).
 
