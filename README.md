@@ -15,6 +15,12 @@ To just run the image in the default mode (notebook), you simple type
 docker run -i -p 8989:8989 -p 8888:8888 -t 4quant/neuroglancer
 ```
 
+## Running with the notebooks saved locally (instead of lost inside docker)
+```
+docker run -i -p 8989:8989 -p 8888:8888 -v $PWD/notebooks:/home/neuroglancer_user/local_notebooks -t 4quant/neuroglancer
+```
+
+
 If you have not built the image locally it will be downloaded from [docker hub](https://hub.docker.com/r/4quant/neuroglancer/).
 
 You can then navigate to http://localhost:8888 and you will be taken to the notebook interface where you can run a demo by simply running the blocks in the SimpleNumpyDemo notebook (inside the notebooks directory)
