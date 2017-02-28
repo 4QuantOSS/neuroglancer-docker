@@ -1,5 +1,5 @@
 # neuroglancer-docker
-The project is a docker image for the neuroglancer project so that neuroglancer python interface can be more easily deployed in a production environment. 
+The project is a docker image for the neuroglancer project so that neuroglancer python interface can be more easily deployed in a production environment. A demo video with over 1GB of PETCT imaging data can be seen [here](https://www.youtube.com/watch?v=BtCe6VCz7Bw&feature=youtu.be)
 
 # Building the Image
 In the main directory of the project you can run 
