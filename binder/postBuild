@@ -1,0 +1,5 @@
+source activate kernel # ensure we are in the best environment
+# enable the extensions
+jupyter nbextension enable --py --sys-prefix widgetsnbextension
+jupyter nbextension     enable --py --sys-prefix nyroglancer
+jupyter serverextension enable --py --sys-prefix nyroglancer

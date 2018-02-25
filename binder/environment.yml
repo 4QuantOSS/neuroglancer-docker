@@ -1,0 +1,16 @@
+name: neuroglancer
+channels:
+  - menpo
+  - glemaitre
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - numpy
+  - matplotlib
+  - pandas
+  - h5py
+  - ipywidgets
+  - nbserverproxy
+  - pip:
+    - git+https://github.com/funkey/nyroglancer
