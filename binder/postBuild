@@ -1,3 +1,4 @@
-mkdir $HOME/.jupyter
-echo "c = get_config()" > $HOME/.jupyter/jupyter_notebook_config.py
-echo "c.NotebookApp.server_extensions = ['nyroglancer.extension']" >> $HOME/.jupyter/jupyter_notebook_config.py
+git clone https://github.com/google/neuroglancer.git
+cd neuroglancer/python
+python setup.py install
+cd ../..
