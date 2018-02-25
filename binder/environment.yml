@@ -12,5 +12,8 @@ dependencies:
   - h5py
   - ipywidgets
   - nbserverproxy
+  - jupyter=4.3.0
+  - IPython=5.1.0
+  - nbformat=4.3.0
   - pip:
     - git+https://github.com/funkey/nyroglancer
