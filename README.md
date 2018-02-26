@@ -7,13 +7,15 @@ The project is a docker image for the neuroglancer project so that neuroglancer 
 
 You can use a prebuilt image on binder inside Jupyter Notebook or Jupyter Lab
  - [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/neuroglancer-docker/master)
-- [![Binder](https://kmader.github.io/Quantitative-Big-Imaging-2018/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/neuroglancer-docker/master?urlpath=lab)
+- [![Binder]( https://img.shields.io/badge/launch-jupyterlab-red.svg)](https://mybinder.org/v2/gh/4QuantOSS/neuroglancer-docker/master?urlpath=lab)
 
 ### Notebooks
 
- - [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/neuroglancer-docker/master?filepath=notebooks%2FSimpleNumpyDemo.ipynb)
+ - [![Binder](https://img.shields.io/badge/launch-example%20notebook-green.svg)](https://mybinder.org/v2/gh/4QuantOSS/neuroglancer-docker/master?filepath=notebooks%2FSimpleNumpyDemo.ipynb)
 
- - [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/neuroglancer-docker/master?filepath=notebooks%2FNPZLoadingExample.ipynb)
+ - [![Binder](https://img.shields.io/badge/launch-NPZ%20notebook-green.svg)](https://mybinder.org/v2/gh/4QuantOSS/neuroglancer-docker/master?filepath=notebooks%2FNPZLoadingExample.ipynb)
+
+  - [![Binder](https://img.shields.io/badge/launch-Skeleton%20notebook-green.svg)](https://mybinder.org/v2/gh/4QuantOSS/neuroglancer-docker/master?filepath=notebooks%2FSkeletonDemo.ipynb)
 
 ## Docker
 
